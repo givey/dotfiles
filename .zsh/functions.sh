@@ -47,9 +47,9 @@ flushdns () {
 
 
 update-dotfiles() {
-  cd ~/.dotfiles
+  cd ~/src/givey/dotfiles
   git pull --rebase
-  ~/.dotfiles/script/update
+  ~/src/givey/dotfiles/script/update
   source ~/.zshrc
   cd -
 }

@@ -1,7 +1,4 @@
-# Marc Qualie's Dot Files
-
-My dot files are shared between all my OSX machines.
-
+# Givey's Dot Files
 
 ## Usage
 
@@ -12,7 +9,6 @@ For convenience I've included the following shell function which calls `script/u
 ``` shell
 $ update-dotfiles
 ```
-
 
 ## TODO
 

@@ -1,7 +1,12 @@
 [github]
-	user = marcqualie
+	user = cjmarkham
 
 [user]
-	name = Marc Qualie
-	email = marc@marcqualie.com
-	signingkey = 30BF26E4
+	name = Carl Markham
+	email = doddsey65@gmail.com
+
+[alias]
+  co = checkout
+  b = branch
+  s = status
+  f = fetch

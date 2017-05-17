@@ -1,8 +1,6 @@
 [include]
 	path = ~/.gitconfig-user
 
-
-
 [color]
 	ui = auto
 
@@ -31,3 +29,9 @@
 
 [push]
 	default = simple
+
+[alias]
+  co = checkout
+  b = branch
+  s = status
+  f = fetch
