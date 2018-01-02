@@ -23,3 +23,10 @@ symlink "$DOTFILES_DIR/etc/nginx/public" "/usr/local/etc/nginx/public"
 symlink "$DOTFILES_DIR/etc/redis.conf" "/usr/local/etc/redis.conf"
 
 echo ""
+
+xcode-select --install
+
+# Install all brewfiles from ~/.Brewfile
+brew bundle --global
+
+source ~/.zshrc
